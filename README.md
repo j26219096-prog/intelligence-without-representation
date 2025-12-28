@@ -1,1 +1,0 @@
-# intelligence-without-representation
