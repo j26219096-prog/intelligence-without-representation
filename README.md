@@ -91,9 +91,9 @@ Reinforcement learning extension
 Visualization of learning dynamics
 
 👨‍💻 Author
-Jawahar R
-Email:j26219096@gamil.com
-Artificial Intelligence Enthusiast | Aspiring Data Engineer
+   Jawahar R
+   Email:j26219096@gamil.com
+   Artificial Intelligence Enthusiast | Aspiring Data Engineer
 🤝 Acknowledgment
 
-This project was independently developed as an exploration of Intelligence Without Representation, focusing on emergent behavior through perception–action systems.
+  This project was independently developed as an exploration of Intelligence Without Representation, focusing on emergent behavior through perception–action systems.
