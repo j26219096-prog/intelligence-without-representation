@@ -1,99 +1,79 @@
-🧠 Intelligence Without Representation
-Emergent Goal-Directed Behavior Without Symbolic Rules
+# 🧠 Intelligence Without Representation
 
-This project demonstrates how intelligent behavior can emerge without using symbolic knowledge representation, predefined rules, or stored world models.
+> Demonstrating how intelligent, goal-directed behavior can emerge from simple perception–action loops — without symbolic rules, stored world models, or explicit planning.
 
-Instead of relying on explicit logic or rule-based reasoning, the agent interacts directly with its environment and makes decisions based on its current state and reward feedback.
+🌐 **[Live Demo](https://j26219096-prog.github.io/intelligence-without-representation/)**
 
-🚀 Project Overview
+---
 
-The system consists of:
+## 💡 Core Idea
 
-*An agent
+Traditional AI systems rely on symbolic knowledge — rules, maps, and explicit reasoning. This project explores the opposite: **can an agent behave intelligently with zero stored representations?**
 
-*A goal state
+The answer is yes. The agent reaches its goal purely through state observation and reward feedback — no planning, no memory, no rules.
 
-*A reward mechanism
+---
 
-*A perception–action loop
+## 🔄 How It Works
+```
+Observe current position
+        ↓
+   Select action
+        ↓
+ Receive reward signal
+        ↓
+Update behavior → Repeat
+```
 
-The agent attempts to reach a goal position while receiving reward signals.
-It does not store symbolic representations, maps, or rule sets.
+No symbolic rules. No explicit planning. No stored world model.
 
-This project illustrates AI without representation, where intelligent behavior emerges from interaction rather than stored knowledge.
+---
 
-🎯 Objective
+## ✨ Key Concepts Demonstrated
 
-To demonstrate that:
+- **Reactive Intelligence** — responds to environment directly
+- **Emergent Behavior** — goal-directed actions arise from simple loops
+- **Reward-Based Adaptation** — learns from feedback, not from rules
+- **Minimal Representation AI** — inspired by Rodney Brooks' subsumption architecture
 
-*Intelligent behavior does not necessarily require symbolic reasoning.
+---
 
-*Goal-directed actions can emerge from simple state–reward interactions.
+## 🛠️ Tech Stack
 
-*Representation-free systems can still exhibit adaptive behavior.
+| Layer | Technology |
+|-------|-----------|
+| Agent Logic | Python (`agent.py`, `environment.py`) |
+| Visualization | HTML + CSS + JavaScript |
+| Deployment | GitHub Pages |
 
-⚙️ How It Works
+---
 
-The agent observes its current position.
+## 🚀 Run Locally
+```bash
+git clone https://github.com/j26219096-prog/intelligence-without-representation.git
+cd intelligence-without-representation
+python app.py
+```
 
-*It selects an action.
+Or just open `index.html` in your browser for the visual demo.
 
-*It receives reward feedback.
+---
 
-*It updates behavior based on outcome.
+## 🔮 Roadmap
 
-*The process repeats until goal is reached.
+- [ ] Multi-agent interaction
+- [ ] Dynamic goal states
+- [ ] Reinforcement learning extension
+- [ ] Visualization of learning dynamics
 
-No symbolic rules.
-No explicit planning.
-No stored world model.
+---
 
-🧩 Key Concepts Demonstrated
+## 👨‍💻 Author
 
-*Reactive Intelligence
+**Jawahar R** — BTech AI & Data Science, Dhanalakshmi Srinivasan Engineering College  
+[GitHub](https://github.com/j26219096-prog)
 
-*Emergent Behavior
+---
 
-*Reward-Based Adaptation
-
-*Minimal Representation AI
-
-💡 Why This Matters
-
-*Traditional AI relies heavily on knowledge representation and symbolic reasoning.
-
-*This project explores an alternative perspective:
-
-*Intelligence can emerge from simple perception–action loops without explicit symbolic structures.
-
-🛠️ Tech Stack
-
-*HTML
-
-*CSS
-
-*JavaScript
-
-*GitHub Pages Deployment
-
-📌 Live Demo
-
-[https://j26219096-prog.github.io/intelligence-without-representation/]
-
-📖 Future Improvements
-
-Multi-agent interaction
-
-Dynamic goal states
-
-Reinforcement learning extension
-
-Visualization of learning dynamics
-
-👨‍💻 Author
-   :Jawahar R
-   :Email:j26219096@gamil.com
-   :Artificial Intelligence Enthusiast | Aspiring Data Engineer.
-🤝 Acknowledgment
-
-  This project was independently developed as an exploration of Intelligence Without Representation, focusing on emergent behavior through perception–action systems.
+## 📄 License
+MIT
